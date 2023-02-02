@@ -11,19 +11,9 @@ public class BMW extends Car {
         this.type = type;
     }
 
-    @Override
-    public Object getDescription() {
-        return "BMW:" + getSpeed() + type;
-    }
 
-    public void  calculatePrice() {
-            double price = getPrice();
-            for (int i = 0; i < years; i++) {
-                price += 1;
-            }
-            setPrice(price);
 
 
        }
-    }
+
 

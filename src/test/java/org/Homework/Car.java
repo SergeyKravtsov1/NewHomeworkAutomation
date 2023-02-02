@@ -2,9 +2,13 @@ package org.Homework;
 
 public abstract class Car {
 
-    String color;
-    int speed;
-    double price;
+  private  String color;
+  private  int speed;
+  private  double price;
+
+    public interface Drive {
+        void drive();
+    }
 
     public Car(String color, int speed, double price) {
         this.color = color;
@@ -31,7 +35,7 @@ public abstract class Car {
     public double getPrice() {
         return price;
     }
-    public abstract Object getDescription();
+    public abstract Object drive();
     public void setPrice(double price) {
         if (price >= 0) {
             this.price = price;
