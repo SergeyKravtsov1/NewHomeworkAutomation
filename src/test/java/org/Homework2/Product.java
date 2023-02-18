@@ -1,26 +1,22 @@
 package org.Homework2;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Product {
 
     public static void main(String[] args) {
-        Product product = new Product("prod", 3);
-        Product product2 = new Product("prod",4);
-        Product product3 = new Product("prod",11);
-
+        Product product = new Product("prod1", 3);
+        Product product2 = new Product("prod2",4);
+        Product product3 = new Product("prod3",11);
 
         List<Product> list = new ArrayList<>();
         list.add(product);
         list.add(product2);
         list.add(product3);
-        Collections.sort(list);
-        for (Product b : list) {
-            System.out.println(b.toString());
-        }
-       ProductMarket productMarket = new ProductMarket(list);
 
-    }
+        }
+
     private String name;
     private int price;
 
