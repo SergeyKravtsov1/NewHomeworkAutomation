@@ -1,6 +1,7 @@
 package org.Homework2;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 public class ProductMarket extends Product{
 
@@ -16,45 +17,39 @@ public class ProductMarket extends Product{
     public Product getNames() {
         List<Product> names = new ArrayList<>();
         for (Product b : product) {
-            names.add(b.getName());
+            Collections(list, Comparator.comparing(Product::getName));
+            list.forEach(System.out.println();
         }
-        return names;
 
         public List<String> getNames () {
             List<Product> names = new ArrayList<>();
-            for (Product b : product) {
-                names.add(b.getName());
-            }
-            Collections.sort(names);
-            return names;
+            Collections.sort(list, Comparator.comparing(Product::getName));
+            list.forEach(System.out.println();
+
         }
         public List<String> getNames () {
             List<Product> names = new ArrayList<>();
-            for (Product b : product) {
-                if (b.getPrice() > 10) ;
+            Collections(list, Comparator.comparing(Product::getPrice() > 10));
+            list.forEach(System.out.println();
             }
-            return names;
 
 
         }
         public List<String> getNames () {
             List<Product> names = new ArrayList<>();
-            for (Product b : product) {
-                if (b.getPrice() < 5) ;
-            }
-            return names;
+            Collections(list, Comparator.comparing(Product::getPrice() < 5));
+            list.forEach(System.out.println();
 
         }
         public Product getNames () {
             List<Product> names = new ArrayList<>();
             int k = 10;
-            for (Product b : product) {
-                names.add(b.getName());
+            Collections(list, Comparator.comparing(Product::getName));
                 Integer.toString(k);
-            }
-            return names;
+            list.forEach(System.out.println();
+
         }
-    }
+
 }
 
 
