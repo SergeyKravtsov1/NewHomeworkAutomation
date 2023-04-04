@@ -4,19 +4,16 @@ import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.junit.jupiter.api.Test;
 
-public class WebDriverTests {
+public class TestTitle {
 
     private static WebDriver driver;
 
     @BeforeAll
     public static void init(){
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
-        System.setProperty("webdriver.http.factory", "jdk-http-client");
-        driver = new ChromeDriver();
+        driver = WebDriverCash.getDriver();
     }
 
     @Test
@@ -29,5 +26,6 @@ public class WebDriverTests {
         WebElement shopingBagtitle = driver.findElement(By.xpath("//input[@class='form-input popup__input'][@type='email']"));
         shopingBagtitle.sendKeys("test@ukr.net");
         Assertions.assertTrue(shopingBagtitle.isDisplayed());
+
     }
 }
