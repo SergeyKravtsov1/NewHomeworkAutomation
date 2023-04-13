@@ -7,7 +7,7 @@ import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 
-public class BaseHttpRequest {
+public class BaseHttpRequest  {
 
     private static final String BASE_URL = "https://reqres.in/";
 

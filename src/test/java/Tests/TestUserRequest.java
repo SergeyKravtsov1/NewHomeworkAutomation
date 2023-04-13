@@ -26,7 +26,7 @@ public class TestUserRequest {
         Assertions.assertEquals(support,userDetail.getSupport());
 
         @Test
-        public void testGetUser(){
+        public void testGetUser2(){
             Response response = usersHttpRequest.getUsers("2");
             User user = response.then()
                     .statusCode(200);
@@ -42,7 +42,7 @@ public class TestUserRequest {
 
 
             @Test
-            public void testGetUser(){
+            public void testGetUser3(){
                 Response response = usersHttpRequest.getUsers("2");
                 Integer userId = response.then()
                         .statusCode(200);

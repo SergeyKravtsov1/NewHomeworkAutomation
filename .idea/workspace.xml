@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f449824-1353-4219-85f8-babd091c02e4" name="Changes" comment="API">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/config/BaseHttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/BaseHttpRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681405046151</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="API">
+      <created>1681407358138</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681407358139</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
